@@ -27,11 +27,14 @@ nav {
       margin-left: 0 !important; }
 
 /* END NAV */
+ul {
+  list-style: none; }
+
 header {
   z-index: 200;
   background-color: #6D7F90; }
   header button {
-    margin-top: 12px;
+    margin-top: 20px;
     margin-bottom: 15px;
     margin-right: 15px;
     position: relative;
@@ -43,7 +46,7 @@ header {
   header .logotype img {
     width: 200px;
     position: absolute;
-    top: 15px;
+    top: 20px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -102,5 +105,22 @@ h3 {
       font-size: 12px; }
     .perks-list-home .content-container .about-tiny {
       font-size: 14px; }
+  .perks-list-home .view-more {
+    background-color: #9D4823;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px; }
+
+footer {
+  height: 75px; }
+  footer ul {
+    margin-top: 20px; }
+    footer ul li {
+      margin-right: 20px; }
+  footer img {
+    width: 35px;
+    height: auto; }
 
 /*# sourceMappingURL=style.css.map */
