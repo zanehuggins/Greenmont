@@ -7,7 +7,7 @@ body {
 
 nav {
   background-color: rgba(255, 255, 255, 0.95);
-  height: 90vh;
+  height: 100%;
   width: 100vw;
   z-index: 100;
   bottom: 0;
@@ -17,7 +17,7 @@ nav {
   transition: .5s; }
   nav ul {
     list-style: none;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 0 !important;
     padding: 0 !important; }
     nav ul li {
@@ -27,12 +27,18 @@ nav {
 
 /* END NAV */
 header {
-  z-index: 200; }
-  header .toggle-button {
-    margin-top: 25px;
+  z-index: 200;
+  background-color: #465466; }
+  header button {
+    margin-top: 12px;
+    margin-bottom: 15px;
     margin-right: 15px;
     position: relative;
-    z-index: 201; }
+    z-index: 201;
+    height: 55px;
+    background-color: #465466;
+    border: none;
+    outline: none; }
   header .logotype img {
     width: 200px;
     position: absolute;
@@ -41,10 +47,6 @@ header {
     bottom: 0;
     left: 0;
     margin: 0 auto; }
-  header button {
-    background-color: #465466;
-    border: none;
-    outline: none; }
   header button:focus {
     outline: none;
     border: none; }
