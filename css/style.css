@@ -76,6 +76,9 @@ h2 {
   margin-top: 30px;
   margin-bottom: 15px; }
 
+h3 {
+  font-size: 21px; }
+
 /* HOME */
 .photo-container-home {
   height: 25vh;
@@ -84,5 +87,8 @@ h2 {
   .photo-container-home img {
     position: absolute;
     bottom: -4vh; }
+
+.perks-list-home {
+  list-style: none; }
 
 /*# sourceMappingURL=style.css.map */
