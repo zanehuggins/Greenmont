@@ -96,5 +96,9 @@ h3 {
     .perks-list-home .content-container h3 {
       font-size: 20px;
       line-height: 21px; }
+    .perks-list-home .content-container .contact-tiny {
+      font-size: 12px; }
+    .perks-list-home .content-container .about-tiny {
+      font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
