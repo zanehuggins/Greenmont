@@ -90,6 +90,8 @@ h3 {
 
 .perks-list-home {
   list-style: none; }
+  .perks-list-home li {
+    margin-top: 10px; }
   .perks-list-home .content-container {
     padding-right: 0;
     margin-top: 0; }
