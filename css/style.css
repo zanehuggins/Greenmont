@@ -60,4 +60,29 @@ header {
   .toggle-display-on ul {
     display: block; }
 
+article {
+  float: left;
+  margin-top: 10px;
+  background-color: white; }
+  article p {
+    margin-bottom: 30px; }
+
+main {
+  float: left;
+  margin-top: 10px;
+  background-color: white; }
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px; }
+
+/* HOME */
+.photo-container-home {
+  height: 25vh;
+  overflow: hidden;
+  position: relative; }
+  .photo-container-home img {
+    position: absolute;
+    bottom: -4vh; }
+
 /*# sourceMappingURL=style.css.map */
