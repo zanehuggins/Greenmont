@@ -123,4 +123,9 @@ footer {
     width: 35px;
     height: auto; }
 
+/* PERKS & POINTS OF INTEREST */
+.subnav li {
+  margin-right: 25px;
+  float: left; }
+
 /*# sourceMappingURL=style.css.map */
