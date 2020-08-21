@@ -29,7 +29,8 @@ nav {
 header .toggle-button {
   margin-top: 25px;
   margin-right: 15px;
-  position: relative; }
+  position: relative;
+  z-index: 200; }
 header .logotype img {
   width: 200px;
   position: absolute;
