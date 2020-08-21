@@ -29,7 +29,7 @@ nav {
 /* END NAV */
 header {
   z-index: 200;
-  background-color: #465466; }
+  background-color: #6D7F90; }
   header button {
     margin-top: 12px;
     margin-bottom: 15px;
@@ -37,7 +37,7 @@ header {
     position: relative;
     z-index: 201;
     height: 55px;
-    background-color: #465466;
+    background-color: #6D7F90;
     border: none;
     outline: none; }
   header .logotype img {
