@@ -114,37 +114,40 @@ p {
     position: absolute;
     bottom: -4vh; }
 
-.perks-list-home {
-  list-style: none; }
-  .perks-list-home li {
-    margin-top: 10px; }
-  .perks-list-home .content-container {
+.list {
+  list-style: none;
+  float: left;
+  margin-bottom: 20px; }
+  .list li {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .list .content-container {
     padding-right: 0;
     margin-top: 0; }
-    .perks-list-home .content-container h3 {
+    .list .content-container h3 {
       font-size: 18px;
       line-height: 21px;
       color: black;
       transition: .25s ease; }
-    .perks-list-home .content-container h3:hover {
+    .list .content-container h3:hover {
       opacity: .5; }
-    .perks-list-home .content-container p {
+    .list .content-container p {
       font-family: 'Barlow', sans-serif;
       font-weight: 400; }
-    .perks-list-home .content-container .contact-tiny {
+    .list .content-container .contact-tiny {
       font-size: 14px;
       font-family: 'Barlow', sans-serif;
       font-weight: 200;
       color: #465466;
       transition: .25s ease; }
-    .perks-list-home .content-container .contact-tiny:hover {
+    .list .content-container .contact-tiny:hover {
       text-decoration: none;
       opacity: .5; }
-    .perks-list-home .content-container .about-tiny {
+    .list .content-container .about-tiny {
       font-size: 14px;
       font-family: 'Barlow', sans-serif;
       font-weight: 400; }
-  .perks-list-home .view-more {
+  .list .view-more {
     background-color: #9D4823;
     color: white;
     text-align: center;
