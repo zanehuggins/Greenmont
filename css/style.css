@@ -182,12 +182,24 @@ footer {
   opacity: .5; }
 
 /*rental-template*/
-.rental-template-gallery li {
-  margin-top: 5px;
-  margin-bottom: 5px; }
-.rental-template-gallery li:nth-child(odd) img {
-  padding-right: 5px; }
-.rental-template-gallery li:nth-child(even) img {
-  padding-left: 5px; }
+.property-features-container {
+  border-top: 1px solid grey; }
+  .property-features-container ul {
+    margin-bottom: 30px; }
+  .property-features-container li {
+    font-family: barlow; }
+
+.rental-template-gallery-container {
+  border-top: 1px solid grey; }
+
+.rental-template-gallery {
+  margin-bottom: 30px; }
+  .rental-template-gallery li {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .rental-template-gallery li:nth-child(odd) img {
+    padding-right: 5px; }
+  .rental-template-gallery li:nth-child(even) img {
+    padding-left: 5px; }
 
 /*# sourceMappingURL=style.css.map */

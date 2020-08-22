@@ -248,7 +248,25 @@ ul{
 }
 
 /*rental-template*/
+
+.property-features-container{
+  ul{
+margin-bottom: 30px;
+  }
+border-top: 1px solid grey;
+li{
+  font-family: barlow;
+}
+}
+
+
+.rental-template-gallery-container{
+      border-top: 1px solid grey;
+}
 .rental-template-gallery{
+
+  margin-bottom: 30px;
+
   li{
     margin-top: 5px;
     margin-bottom: 5px;
