@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0; }
 
+#active-subnav {
+  font-weight: bold;
+  text-decoration: underline; }
+
 body {
   background-color: #465466; }
 
@@ -147,5 +151,7 @@ footer {
 .subnav li {
   margin-right: 15px;
   float: left; }
+  .subnav li a {
+    color: #465466; }
 
 /*# sourceMappingURL=style.css.map */

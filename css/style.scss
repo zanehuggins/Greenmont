@@ -7,6 +7,11 @@ $orange: #9D4823;
   padding: 0;
 }
 
+#active-subnav{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 body{
    background-color: $dark-blue;
  }
@@ -197,5 +202,8 @@ ul{
   li{
     margin-right: 15px;
     float: left;
+    a{
+    color: $dark-blue;
+  }
   }
 }
