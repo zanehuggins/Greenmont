@@ -147,6 +147,9 @@ p {
       font-size: 14px;
       font-family: 'Barlow', sans-serif;
       font-weight: 400; }
+      .list .content-container .about-tiny li {
+        margin-top: 0;
+        margin-bottom: 0; }
   .list .view-more {
     background-color: #9D4823;
     color: white;
