@@ -223,4 +223,8 @@ footer {
   text-decoration: none;
   opacity: .5; }
 
+/*history*/
+.history .history-p {
+  margin-top: 30px; }
+
 /*# sourceMappingURL=style.css.map */
