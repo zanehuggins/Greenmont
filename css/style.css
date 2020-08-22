@@ -75,12 +75,20 @@ main {
   margin-top: 10px;
   background-color: white; }
 
+h1 {
+  font-family: 'Playfair Display', serif; }
+
 h2 {
+  font-family: 'Playfair Display', serif;
   margin-top: 30px;
   margin-bottom: 15px; }
 
 h3 {
+  font-family: 'Playfair Display', serif;
   font-size: 21px; }
+
+p {
+  font-family: 'Barlow', sans-serif; }
 
 /* HOME */
 .photo-container-home {
@@ -100,11 +108,20 @@ h3 {
     margin-top: 0; }
     .perks-list-home .content-container h3 {
       font-size: 20px;
-      line-height: 21px; }
+      line-height: 21px;
+      color: black; }
+    .perks-list-home .content-container p {
+      font-family: 'Barlow', sans-serif;
+      font-weight: 400; }
     .perks-list-home .content-container .contact-tiny {
-      font-size: 12px; }
+      font-size: 14px;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 200;
+      color: #6D7F90; }
     .perks-list-home .content-container .about-tiny {
-      font-size: 14px; }
+      font-size: 14px;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 400; }
   .perks-list-home .view-more {
     background-color: #9D4823;
     color: white;
