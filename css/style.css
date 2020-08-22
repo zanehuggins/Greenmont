@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0; }
 
+#active {
+  font-weight: bold;
+  text-decoration: underline; }
+
 #active-subnav {
   font-weight: bold;
   text-decoration: underline; }
@@ -29,6 +33,11 @@ nav {
       text-align: center;
       padding: 12px;
       margin-left: 0 !important; }
+      nav ul li a {
+        color: black; }
+  nav li a:hover {
+    color: #465466;
+    text-decoration: none; }
 
 /* END NAV */
 ul {
@@ -122,7 +131,10 @@ p {
       font-size: 14px;
       font-family: 'Barlow', sans-serif;
       font-weight: 200;
-      color: #6D7F90; }
+      color: #465466; }
+    .perks-list-home .content-container .contact-tiny:hover {
+      text-decoration: none;
+      opacity: .5; }
     .perks-list-home .content-container .about-tiny {
       font-size: 14px;
       font-family: 'Barlow', sans-serif;
@@ -153,5 +165,8 @@ footer {
   float: left; }
   .subnav li a {
     color: #465466; }
+.subnav a:hover {
+  text-decoration: none;
+  opacity: .5; }
 
 /*# sourceMappingURL=style.css.map */

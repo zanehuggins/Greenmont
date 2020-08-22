@@ -7,6 +7,11 @@ $orange: #9D4823;
   padding: 0;
 }
 
+#active{
+  font-weight: bold;
+    text-decoration: underline;
+}
+
 #active-subnav{
   font-weight: bold;
   text-decoration: underline;
@@ -38,7 +43,15 @@ ul{
     text-align: center;
     padding: 12px;
   margin-left: 0!important;
+  a{
+    color: black;
   }
+  }
+}
+
+li a:hover{
+  color: $dark-blue;
+  text-decoration: none;
 }
 
 } /* END NAV */
@@ -160,9 +173,14 @@ li{
     font-size: 14px;
     font-family: 'Barlow', sans-serif;
     font-weight: 200;
-    color: $light-blue;
-
+    color: $dark-blue;
   }
+
+  .contact-tiny:hover{
+    text-decoration: none;
+    opacity: .5;
+  }
+
   .about-tiny{
     font-size: 14px;
     font-family: 'Barlow', sans-serif;
@@ -205,5 +223,10 @@ ul{
     a{
     color: $dark-blue;
   }
+  }
+
+  a:hover{
+    text-decoration: none;
+    opacity: .5;
   }
 }
