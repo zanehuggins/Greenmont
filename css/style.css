@@ -181,4 +181,13 @@ footer {
   text-decoration: none;
   opacity: .5; }
 
+/*rental-template*/
+.rental-template-gallery li {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+.rental-template-gallery li:nth-child(odd) img {
+  padding-right: 5px; }
+.rental-template-gallery li:nth-child(even) img {
+  padding-left: 5px; }
+
 /*# sourceMappingURL=style.css.map */
