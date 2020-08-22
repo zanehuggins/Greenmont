@@ -34,8 +34,9 @@ nav {
       padding: 12px;
       margin-left: 0 !important; }
       nav ul li a {
-        color: black; }
-  nav li a:hover {
+        color: black;
+        transition: .25s ease; }
+  nav a:hover {
     color: #465466;
     text-decoration: none; }
 
@@ -123,7 +124,10 @@ p {
     .perks-list-home .content-container h3 {
       font-size: 18px;
       line-height: 21px;
-      color: black; }
+      color: black;
+      transition: .25s ease; }
+    .perks-list-home .content-container h3:hover {
+      opacity: .5; }
     .perks-list-home .content-container p {
       font-family: 'Barlow', sans-serif;
       font-weight: 400; }
@@ -131,7 +135,8 @@ p {
       font-size: 14px;
       font-family: 'Barlow', sans-serif;
       font-weight: 200;
-      color: #465466; }
+      color: #465466;
+      transition: .25s ease; }
     .perks-list-home .content-container .contact-tiny:hover {
       text-decoration: none;
       opacity: .5; }
@@ -164,7 +169,8 @@ footer {
   margin-right: 15px;
   float: left; }
   .subnav li a {
-    color: #465466; }
+    color: #465466;
+    transition: .25s ease; }
 .subnav a:hover {
   text-decoration: none;
   opacity: .5; }

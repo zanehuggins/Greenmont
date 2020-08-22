@@ -45,11 +45,12 @@ ul{
   margin-left: 0!important;
   a{
     color: black;
+    transition: .25s ease;
   }
   }
 }
 
-li a:hover{
+a:hover{
   color: $dark-blue;
   text-decoration: none;
 }
@@ -162,6 +163,11 @@ li{
     font-size: 18px;
     line-height: 21px;
     color: black;
+    transition: .25s ease;
+  }
+
+  h3:hover{
+    opacity: .5;
   }
 
   p{
@@ -174,6 +180,7 @@ li{
     font-family: 'Barlow', sans-serif;
     font-weight: 200;
     color: $dark-blue;
+    transition: .25s ease;
   }
 
   .contact-tiny:hover{
@@ -222,6 +229,7 @@ ul{
     float: left;
     a{
     color: $dark-blue;
+    transition: .25s ease;
   }
   }
 
