@@ -114,6 +114,9 @@ p {
     position: absolute;
     bottom: -4vh; }
 
+.map {
+  height: 50vh; }
+
 .list {
   list-style: none;
   float: left;
