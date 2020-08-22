@@ -213,6 +213,11 @@ li{
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 30px;
+  transition: .25s ease;
+}
+a:hover{
+  text-decoration: none;
+  opacity: .5;
 }
 }
 
@@ -266,6 +271,8 @@ li{
 
 .rental-template-gallery-container{
       border-top: 1px solid grey;
+      border-bottom: 1px solid grey;
+      margin-bottom: 30px;
 }
 .rental-template-gallery{
 
@@ -282,4 +289,22 @@ li{
   li:nth-child(even) img{
     padding-left: 5px;
   }
+}
+
+.contact-landlord-container{
+  a{
+    background-color: $orange;
+    color: white;
+    text-align: center;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    margin-bottom: 30px;
+    transition: .25s ease;
+}
+
+a:hover{
+  text-decoration: none;
+  opacity: .5;
+}
+
 }

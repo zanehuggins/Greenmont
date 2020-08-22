@@ -159,7 +159,11 @@ p {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    transition: .25s ease; }
+  .list a:hover {
+    text-decoration: none;
+    opacity: .5; }
 
 footer {
   height: 75px; }
@@ -193,7 +197,9 @@ footer {
     font-family: barlow; }
 
 .rental-template-gallery-container {
-  border-top: 1px solid grey; }
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-bottom: 30px; }
 
 .rental-template-gallery {
   margin-bottom: 30px; }
@@ -204,5 +210,17 @@ footer {
     padding-right: 5px; }
   .rental-template-gallery li:nth-child(even) img {
     padding-left: 5px; }
+
+.contact-landlord-container a {
+  background-color: #9D4823;
+  color: white;
+  text-align: center;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 30px;
+  transition: .25s ease; }
+.contact-landlord-container a:hover {
+  text-decoration: none;
+  opacity: .5; }
 
 /*# sourceMappingURL=style.css.map */
