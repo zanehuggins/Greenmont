@@ -17,10 +17,25 @@
   <body>
 <div class="container-fluid">
 
-<header class="col-12 p-0 float-left">
-  <a href="index.html" class="logotype"><img src="images/components/logotype.svg" alt="logo/home button"></a>
-  <button onclick="myFunction()" class="col-1 float-right p-0 toggle-button"><img src="images/components/nav-button.svg" alt="toggle navigation"></button>
-  </header>
+  <header class="col-12 p-0 float-left">
+    <a href="index.html" class="logotype"><img src="images/components/logotype.svg" alt="logo/home button"></a>
+    <button onclick="myFunction()" class="col-1 float-right p-0 toggle-button d-lg-none"><img src="images/components/nav-button.svg" alt="toggle navigation"></button>
+
+    <div class="desktop-nav col-12 float-left d-none d-lg-block">
+
+      <ul class="#">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="perks.html">PERKS</a></li>
+        <li><a href="history.html">HISTORY</a></li>
+        <li><a href="projects.html" id="active-desktop">PROJECTS</a></li>
+        <li><a href="rentals.html">RENTALS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+      </div>
+
+    </header>
 
 <div class="main-container">
   <nav class="nav" id="nav">
