@@ -310,6 +310,9 @@ footer {
     padding-left: 10px !important;
     padding-right: 0 !important; }
 
+  .aside-container {
+    padding: 0 !important; }
+
   /* Home */
   .home {
     padding-top: 30px !important;
