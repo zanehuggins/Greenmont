@@ -104,11 +104,18 @@ button:focus{
   }
 }
 
+.home{
+  padding-top: 0!important;
+}
+
 article{
   float: left;
   margin-top:10px;
   background-color: white;
-  padding: 0!important;
+  padding-top: 0px!important;
+  padding-bottom: 30px;
+  padding-left: 0!important;
+  padding-right: 0!important;
   p{
     margin-bottom: 30px;
   }
@@ -119,6 +126,16 @@ main{
   margin-top:10px;
   background-color: white;
   padding: 0!important;
+}
+
+aside{
+  float: left;
+  margin-top:10px;
+  padding: 0!important;
+
+  .aside-container{
+      background-color: white;
+  }
 }
 
 
@@ -149,7 +166,7 @@ p{
   position: relative;
   img{
     position: absolute;
-    bottom: -25px;
+    top: -50px!important;
   }
 }
 
@@ -354,9 +371,14 @@ main{
   padding-right: 25px!important;
 }
 
+.aside-container{
+  padding-left: 25px!important;
+  padding-right: 25px!important;
+}
+
 .photo-container-home{
   img{
-    bottom: -200px;
+    bottom: -200px!important;
   }
 }
 
@@ -416,6 +438,37 @@ p{
 
 @media (min-width: 992px){
 
+.main-container{
+  padding: 10px;
+}
+
+  main{
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+  aside{
+    padding-left: 10px!important;
+    padding-right: 0!important;
+  }
+
+
+
+/* Home */
+.home{
+  padding-top: 30px!important;
+  padding-bottom: 30px!important;
+
+  h2{
+    margin: 0;
+  }
+}
+.photo-container-home{
+  height: 250px;
+  img{
+top: 0;
+  }
+}
 }
 
 @media (min-width: 1200px){

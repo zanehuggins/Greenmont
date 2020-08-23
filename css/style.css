@@ -77,11 +77,17 @@ header {
   .toggle-display-on ul {
     display: block; }
 
+.home {
+  padding-top: 0 !important; }
+
 article {
   float: left;
   margin-top: 10px;
   background-color: white;
-  padding: 0 !important; }
+  padding-top: 0px !important;
+  padding-bottom: 30px;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
   article p {
     margin-bottom: 30px; }
 
@@ -90,6 +96,13 @@ main {
   margin-top: 10px;
   background-color: white;
   padding: 0 !important; }
+
+aside {
+  float: left;
+  margin-top: 10px;
+  padding: 0 !important; }
+  aside .aside-container {
+    background-color: white; }
 
 h1 {
   font-family: 'Playfair Display', serif; }
@@ -114,7 +127,7 @@ p {
   position: relative; }
   .photo-container-home img {
     position: absolute;
-    bottom: -25px; }
+    top: -50px !important; }
 
 .map {
   height: 50vh; }
@@ -246,8 +259,12 @@ footer {
     padding-left: 25px !important;
     padding-right: 25px !important; }
 
+  .aside-container {
+    padding-left: 25px !important;
+    padding-right: 25px !important; }
+
   .photo-container-home img {
-    bottom: -200px; }
+    bottom: -200px !important; }
 
   .list .about-tiny {
     font-size: 12px !important; }
@@ -281,5 +298,28 @@ footer {
       padding: 0 !important;
       margin-bottom: 30px; } }
 /* closes 768px media query */
+@media (min-width: 992px) {
+  .main-container {
+    padding: 10px; }
+
+  main {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+  aside {
+    padding-left: 10px !important;
+    padding-right: 0 !important; }
+
+  /* Home */
+  .home {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+    .home h2 {
+      margin: 0; }
+
+  .photo-container-home {
+    height: 250px; }
+    .photo-container-home img {
+      top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
