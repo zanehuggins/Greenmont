@@ -88,7 +88,8 @@ article {
 main {
   float: left;
   margin-top: 10px;
-  background-color: white; }
+  background-color: white;
+  padding: 0; }
 
 h1 {
   font-family: 'Playfair Display', serif; }
@@ -230,6 +231,10 @@ footer {
 
 /* BREAKPOINTS START HERE ------------------------------------ */
 @media (min-width: 768px) {
+  main {
+    padding-left: 25px !important;
+    padding-right: 25px !important; }
+
   /*home*/
   .view-more {
     margin-top: 20px;
@@ -244,7 +249,14 @@ footer {
     .history img {
       margin-top: 30px; }
     .history p {
-      margin-top: 0; } }
+      margin-top: 0; }
+
+  .home h2 {
+    padding-left: 40px !important;
+    padding-right: 40px !important; }
+  .home p {
+    padding-left: 40px !important;
+    padding-right: 40px !important; } }
 /* closes 768px media query */
 
 /*# sourceMappingURL=style.css.map */

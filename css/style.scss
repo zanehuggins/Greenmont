@@ -118,6 +118,7 @@ main{
   float: left;
   margin-top:10px;
   background-color: white;
+  padding: 0;
 }
 
 
@@ -325,6 +326,14 @@ p{
 
 @media (min-width: 768px){
 
+main{
+  padding-left: 25px!important;
+  padding-right: 25px!important;
+}
+
+article{
+
+}
 /*home*/
 .view-more{
   margin-top: 20px;
@@ -350,6 +359,18 @@ height: 30vh;
   }
 
 }
+
+.home
+{ h2{
+  padding-left: 40px!important;
+  padding-right: 40px!important;
+}
+p{
+  padding-left: 40px!important;
+  padding-right: 40px!important;
+}
+}
+
 } /* closes 768px media query */
 
 
