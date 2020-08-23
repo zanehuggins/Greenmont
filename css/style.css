@@ -133,14 +133,18 @@ p {
       font-size: 18px;
       line-height: 21px;
       color: black;
-      transition: .25s ease; }
+      transition: .25s ease;
+      margin-bottom: 0px !important; }
     .list .content-container h3:hover {
       opacity: .5; }
     .list .content-container p {
       font-family: 'Barlow', sans-serif;
-      font-weight: 400; }
+      font-weight: 400;
+      margin-bottom: 0 !important; }
     .list .content-container .contact-tiny {
       font-size: 14px;
+      line-height: 14px;
+      margin-bottom: 5px !important;
       font-family: 'Barlow', sans-serif;
       font-weight: 200;
       color: #465466;
@@ -236,7 +240,7 @@ footer {
     padding-right: 25px !important; }
 
   .list .about-tiny {
-    font-size: 13px !important; }
+    font-size: 12px !important; }
 
   /*home*/
   .view-more {
