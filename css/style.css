@@ -129,8 +129,13 @@ p {
     position: absolute;
     top: -50px !important; }
 
+.current-projects {
+  height: 450px;
+  background-color: white; }
+
 .map {
-  height: 50vh; }
+  height: 50vh;
+  margin-top: 10px; }
 
 .list {
   list-style: none;
