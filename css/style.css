@@ -239,6 +239,9 @@ footer {
     bottom: -150px; } }
 /* closes 576px breakpoint */
 @media (min-width: 768px) {
+  header button img {
+    max-width: 40px; }
+
   main {
     padding-left: 25px !important;
     padding-right: 25px !important; }
