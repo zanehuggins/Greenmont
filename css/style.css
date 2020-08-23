@@ -13,6 +13,18 @@
 body {
   background-color: #465466; }
 
+.desktop-nav ul {
+  margin-top: 90px;
+  width: 100%; }
+.desktop-nav li {
+  float: left;
+  width: 14%;
+  text-align: center; }
+  .desktop-nav li a {
+    color: white;
+    font-family: barlow;
+    font-size: 14px !important; }
+
 nav {
   background-color: rgba(255, 255, 255, 0.95);
   height: 100vh;
@@ -304,6 +316,9 @@ footer {
       margin-bottom: 30px; } }
 /* closes 768px media query */
 @media (min-width: 992px) {
+  header {
+    height: 125px; }
+
   .main-container {
     padding: 10px; }
 
