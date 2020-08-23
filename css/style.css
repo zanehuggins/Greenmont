@@ -114,7 +114,7 @@ p {
   position: relative; }
   .photo-container-home img {
     position: absolute;
-    bottom: -4vh; }
+    bottom: -25px; }
 
 .map {
   height: 50vh; }
@@ -234,10 +234,17 @@ footer {
   margin-bottom: 30px; }
 
 /* BREAKPOINTS START HERE ------------------------------------ */
+@media (min-width: 576px) {
+  .photo-container-home img {
+    bottom: -150px; } }
+/* closes 576px breakpoint */
 @media (min-width: 768px) {
   main {
     padding-left: 25px !important;
     padding-right: 25px !important; }
+
+  .photo-container-home img {
+    bottom: -200px; }
 
   .list .about-tiny {
     font-size: 12px !important; }
