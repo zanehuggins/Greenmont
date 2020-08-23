@@ -118,7 +118,7 @@ main{
   float: left;
   margin-top:10px;
   background-color: white;
-  padding: 0;
+  padding: 0!important;
 }
 
 
@@ -372,6 +372,14 @@ p{
   padding-left: 40px!important;
   padding-right: 40px!important;
 }
+}
+
+.rental-template-image{
+  margin-top: 30px;
+  img{
+    padding: 0!important;
+    margin-bottom: 30px;
+  }
 }
 
 } /* closes 768px media query */
