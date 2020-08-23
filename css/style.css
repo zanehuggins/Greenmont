@@ -80,7 +80,8 @@ header {
 article {
   float: left;
   margin-top: 10px;
-  background-color: white; }
+  background-color: white;
+  padding: 0 !important; }
   article p {
     margin-bottom: 30px; }
 
@@ -229,7 +230,13 @@ footer {
 
 /* BREAKPOINTS START HERE ------------------------------------ */
 @media (min-width: 768px) {
-  main {
-    padding: 25px !important; } }
+  .photo-container-home {
+    display: none; }
+
+  article {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+    article img {
+      margin-top: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
