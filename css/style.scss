@@ -213,7 +213,7 @@ li{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 30px;
+
   transition: .25s ease;
 }
 a:hover{
@@ -322,15 +322,10 @@ a:hover{
 
 
 @media (min-width: 768px){
-.photo-container-home{
-  display: none;
-}
-article{
-padding-bottom: 30px!important;
 
-  img{
-margin-top: 30px;
-  }
+.view-more{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .map{
