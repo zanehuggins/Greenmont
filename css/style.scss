@@ -313,8 +313,10 @@ a:hover{
 /*history*/
 
 .history{
-  .history-p{
+p{
     margin-top: 30px;
+    margin-bottom: 30px;
+
   }
 }
 
@@ -323,6 +325,7 @@ a:hover{
 
 @media (min-width: 768px){
 
+/*home*/
 .view-more{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -330,6 +333,22 @@ a:hover{
 
 .map{
 height: 30vh;
+}
+
+/*history*/
+.history{
+  padding-bottom: 30px!important;
+  h2{
+
+  }
+  img{
+    margin-top: 30px;
+  }
+  p{
+
+    margin-top: 0;
+  }
+
 }
 } /* closes 768px media query */
 

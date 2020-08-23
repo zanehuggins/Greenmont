@@ -224,17 +224,27 @@ footer {
   opacity: .5; }
 
 /*history*/
-.history .history-p {
-  margin-top: 30px; }
+.history p {
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 /* BREAKPOINTS START HERE ------------------------------------ */
 @media (min-width: 768px) {
+  /*home*/
   .view-more {
     margin-top: 20px;
     margin-bottom: 20px; }
 
   .map {
-    height: 30vh; } }
+    height: 30vh; }
+
+  /*history*/
+  .history {
+    padding-bottom: 30px !important; }
+    .history img {
+      margin-top: 30px; }
+    .history p {
+      margin-top: 0; } }
 /* closes 768px media query */
 
 /*# sourceMappingURL=style.css.map */
