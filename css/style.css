@@ -291,7 +291,35 @@ footer {
   .list .about-tiny {
     font-size: 12px !important; }
 
+  .carousel-item {
+    height: 250px;
+    content-overflow: hidden;
+    position: relative; }
+    .carousel-item img {
+      position: absolute;
+      top: -125px; }
+
+  .carousel-text-container {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(225, 225, 225, 0.9); }
+    .carousel-text-container h3 {
+      margin-top: 15px; }
+    .carousel-text-container p {
+      font-size: 13px; }
+    .carousel-text-container a {
+      background-color: #9D4823;
+      padding: 10px;
+      color: white;
+      text-align: center; }
+
+  .link-container {
+    padding-bottom: 10px; }
+
   /*home*/
+  .home {
+    max-height: 260px; }
+
   .view-more {
     margin-top: 20px;
     margin-bottom: 20px; }

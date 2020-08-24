@@ -416,7 +416,45 @@ main{
 }
 }
 
+.carousel-item{
+  height: 250px;
+  content-overflow: hidden;
+  position: relative;
+
+  img{
+    position: absolute;
+    top: -125px;
+  }
+}
+
+.carousel-text-container{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, .9);
+  h3{
+    margin-top: 15px;
+  }
+  p{
+    font-size: 13px;
+  }
+  a{
+    background-color: $orange;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+}
+
+.link-container{
+  padding-bottom: 10px;
+}
+
+
 /*home*/
+.home{
+max-height: 260px;
+}
+
 .view-more{
   margin-top: 20px;
   margin-bottom: 20px;
