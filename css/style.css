@@ -314,7 +314,8 @@ footer {
       text-align: center; }
 
   .link-container {
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    padding-top: 30px; }
 
   /*home*/
   .home {
