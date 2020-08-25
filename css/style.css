@@ -122,7 +122,10 @@ aside {
     background-color: white; }
 
 h1 {
-  font-family: 'Playfair Display', serif; }
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 15px; }
 
 h2 {
   font-family: 'Playfair Display', serif;
@@ -136,6 +139,12 @@ h3 {
 
 p {
   font-family: 'Barlow', sans-serif; }
+
+.h2-duplicate {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 15px; }
 
 /* HOME */
 .photo-container-home {
@@ -318,8 +327,10 @@ footer {
     padding-top: 30px; }
 
   /*home*/
-  .home {
-    max-height: 260px; }
+  .home p img {
+    padding-left: 0;
+    padding-bottom: 10px;
+    padding-right: 25px !important; }
 
   .view-more {
     margin-top: 20px;

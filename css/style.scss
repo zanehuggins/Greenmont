@@ -163,6 +163,9 @@ aside{
 
 h1{
   font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 h2{
@@ -179,6 +182,13 @@ h3{
 
 p{
   font-family: 'Barlow', sans-serif;
+}
+
+.h2-duplicate{
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 /* HOME */
@@ -453,7 +463,13 @@ main{
 
 /*home*/
 .home{
-max-height: 260px;
+p{
+  img{
+    padding-left: 0;
+    padding-bottom: 10px;
+    padding-right: 25px!important;
+  }
+}
 }
 
 .view-more{
