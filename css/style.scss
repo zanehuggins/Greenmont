@@ -5,6 +5,7 @@ $orange: #9D4823;
 .container-fluid{
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 #active{
@@ -188,15 +189,15 @@ p{
   padding-right: 10px;
   padding-top: 10px;
   padding-left: 0;
+
+  .map-2{
+    margin-top: 10px;
+  }
 }
 
 .aside-duplicate{
   background-color: white;
   padding-bottom: 30px;
-  img{
-    margin-top: 30px;
-
-  }
 }
 
 .h2-duplicate{
@@ -407,6 +408,8 @@ p{
   }
 }
 
+
+
 } /* closes 576px breakpoint */
 
 @media (min-width: 768px){
@@ -549,6 +552,17 @@ p{
   }
 }
 
+.aside-duplicate{
+  ul{
+    margin-top: 75px;
+  }
+  img{
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+
 } /* closes 768px media query */
 
 
@@ -596,6 +610,23 @@ top: 0;
 
 }
 
-@media (min-width: 1200px){
+@media (min-width: 992px) and (max-width: 1199px){
+  .about-height{
+    height: 630px;
+  }
+}
 
+@media (min-width: 1200px){
+  .about-height{
+    height: 540px;
+  }
+  .aside-duplicate{
+    ul{
+      margin-top: 30px;
+    }
+    img{
+      margin: 0;
+      padding: 10px;
+    }
+  }
 }

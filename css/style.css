@@ -1,6 +1,7 @@
 .container-fluid {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  min-height: 100vh; }
 
 #active {
   font-weight: bold;
@@ -144,12 +145,12 @@ p {
   padding-right: 10px;
   padding-top: 10px;
   padding-left: 0; }
+  .aside-container-duplicate .map-2 {
+    margin-top: 10px; }
 
 .aside-duplicate {
   background-color: white;
   padding-bottom: 30px; }
-  .aside-duplicate img {
-    margin-top: 30px; }
 
 .h2-duplicate {
   font-family: 'Playfair Display', serif;
@@ -379,7 +380,13 @@ footer {
     margin-top: 30px; }
   .history p img {
     padding-left: 0;
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .aside-duplicate ul {
+    margin-top: 75px; }
+  .aside-duplicate img {
+    margin: 0;
+    padding: 10px; } }
 /* closes 768px media query */
 @media (min-width: 992px) {
   header {
@@ -410,5 +417,17 @@ footer {
     height: 250px; }
     .photo-container-home img {
       top: 0; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-height {
+    height: 630px; } }
+@media (min-width: 1200px) {
+  .about-height {
+    height: 540px; }
+
+  .aside-duplicate ul {
+    margin-top: 30px; }
+  .aside-duplicate img {
+    margin: 0;
+    padding: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
