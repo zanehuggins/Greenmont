@@ -248,6 +248,9 @@ footer {
   text-decoration: none;
   opacity: .5; }
 
+#perks-aside {
+  padding: 0 !important; }
+
 /*rental-template*/
 .property-features-container {
   border-top: 1px solid grey; }
@@ -435,6 +438,9 @@ footer {
     margin-top: 30px; }
   .aside-duplicate img {
     margin: 0;
-    padding: 10px; } }
+    padding: 10px; }
+
+  #perks-aside {
+    padding-left: 10px !important; } }
 
 /*# sourceMappingURL=style.css.map */

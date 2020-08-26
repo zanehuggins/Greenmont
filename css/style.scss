@@ -335,6 +335,10 @@ ul{
   }
 }
 
+#perks-aside{
+padding: 0!important;
+}
+
 /*rental-template*/
 
 .property-features-container{
@@ -639,5 +643,8 @@ top: 0;
       margin: 0;
       padding: 10px;
     }
+  }
+  #perks-aside{
+  padding-left: 10px!important;
   }
 }
