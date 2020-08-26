@@ -142,9 +142,9 @@ p {
   font-family: 'Barlow', sans-serif; }
 
 .aside-container-duplicate {
-  padding-right: 10px;
+  padding-right: 0;
   padding-top: 10px;
-  padding-left: 0; }
+  padding-left: 0px; }
   .aside-container-duplicate .map-2 {
     margin-top: 10px; }
 
@@ -416,7 +416,12 @@ footer {
   .photo-container-home {
     height: 250px; }
     .photo-container-home img {
-      top: 0; } }
+      top: 0; }
+
+  .aside-container-duplicate {
+    padding-right: 0;
+    padding-top: 10px;
+    padding-left: 10px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .about-height {
     height: 630px; } }

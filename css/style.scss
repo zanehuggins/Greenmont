@@ -186,9 +186,9 @@ p{
 }
 
 .aside-container-duplicate{
-  padding-right: 10px;
+  padding-right: 0;
   padding-top: 10px;
-  padding-left: 0;
+  padding-left: 0px;
 
   .map-2{
     margin-top: 10px;
@@ -552,6 +552,9 @@ p{
   }
 }
 
+
+
+
 .aside-duplicate{
   ul{
     margin-top: 75px;
@@ -605,6 +608,11 @@ header{
   img{
 top: 0;
   }
+}
+.aside-container-duplicate{
+  padding-right: 0;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 
