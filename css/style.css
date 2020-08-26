@@ -441,6 +441,12 @@ footer {
     padding: 10px; }
 
   #perks-aside {
-    padding-left: 10px !important; } }
+    padding-left: 10px !important; }
+
+  .aside-image-container {
+    margin-bottom: 20px; }
+    .aside-image-container img {
+      height: 75px;
+      margin-right: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
