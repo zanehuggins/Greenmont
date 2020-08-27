@@ -360,6 +360,15 @@ li{
 }
 }
 
+.rental-template-image{
+  margin-top: 0px;
+  padding: 0!important;
+  img{
+    padding: 0!important;
+
+  }
+}
+
 
 .rental-template-gallery-container{
       border-top: 1px solid grey;
@@ -369,18 +378,16 @@ li{
 .rental-template-gallery{
 
   margin-bottom: 30px;
-
+ul{
+  padding: 10px;
+}
   li{
-    margin-top: 5px;
-    margin-bottom: 5px;
+
   }
 
-  li:nth-child(odd) img{
-    padding-right: 5px;
-  }
-  li:nth-child(even) img{
-    padding-left: 5px;
-  }
+img{
+  padding: 5px;
+}
 }
 
 .contact-landlord-container{
@@ -595,6 +602,13 @@ p{
     padding: 10px;
   }
 }
+
+/* Rental Template */
+.rental-template{
+  padding-left: 40px!important;
+  padding-right: 40px!important;
+}
+
 
 
 } /* closes 768px media query */
