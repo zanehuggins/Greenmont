@@ -251,6 +251,12 @@ footer {
 #perks-aside {
   padding: 0 !important; }
 
+.aside-image-container {
+  margin-bottom: 20px; }
+  .aside-image-container img {
+    height: 75px !important;
+    margin-right: 10px !important; }
+
 /*rental-template*/
 .property-features-container {
   border-top: 1px solid grey; }
@@ -459,7 +465,7 @@ footer {
   .aside-image-container {
     margin-bottom: 20px; }
     .aside-image-container img {
-      height: 75px;
-      margin-right: 10px; } }
+      height: 75px !important;
+      margin-right: 5px !important; } }
 
 /*# sourceMappingURL=style.css.map */

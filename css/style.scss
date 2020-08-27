@@ -335,8 +335,17 @@ ul{
   }
 }
 
+
 #perks-aside{
 padding: 0!important;
+}
+
+.aside-image-container{
+  margin-bottom: 20px;
+  img{
+    height: 75px!important;
+    margin-right: 10px!important;
+  }
 }
 
 /*rental-template*/
@@ -669,8 +678,8 @@ top: 0;
 .aside-image-container{
   margin-bottom: 20px;
   img{
-    height: 75px;
-    margin-right: 10px;
+    height: 75px!important;
+    margin-right: 5px!important;
   }
 }
 }
