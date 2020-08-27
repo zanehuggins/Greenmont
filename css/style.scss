@@ -648,6 +648,7 @@ header{
     margin: 0;
   }
 }
+
 .photo-container-home{
   height: 250px;
   img{
@@ -664,15 +665,48 @@ top: 0;
 }
 
 
+
+/* Rental Template */
+.rental-template-gallery-container{
+      border-bottom: none;
+}
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
   .about-height{
     height: 630px;
   }
+
+  .home{
+    height: 390px!important;
+  }
+
+  .current-projects{
+    height: 310px!important;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .home-aside{
+    height: 710px;
+  }
+
+
 }
 
 @media (min-width: 1200px){
+
+.home{
+  height: 375px!important;
+}
+
+.current-projects{
+  height: 405px;
+  background-color: white;
+}
+
   .about-height{
     height: 540px;
   }
@@ -682,8 +716,12 @@ top: 0;
     }
     img{
       margin: 0;
-      padding: 10px;
+      padding: 5px!important;
     }
+  }
+
+  .home-aside{
+height: 790px;
   }
   #perks-aside{
   padding-left: 10px!important;
