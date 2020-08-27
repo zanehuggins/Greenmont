@@ -292,15 +292,17 @@ footer {
   margin-bottom: 30px; }
 
 /* About */
-.about-photo-ul li:nth-child(1) img {
-  padding: 0;
-  margin-bottom: 10px; }
-.about-photo-ul li:nth-child(2) img {
-  padding-left: 0;
-  padding-right: 5px; }
-.about-photo-ul li:nth-child(3) img {
-  padding-right: 0;
-  padding-left: 5px; }
+.about-photo-ul {
+  margin-top: 30px; }
+  .about-photo-ul li:nth-child(1) img {
+    padding: 0;
+    margin-bottom: 10px; }
+  .about-photo-ul li:nth-child(2) img {
+    padding-left: 0;
+    padding-right: 5px; }
+  .about-photo-ul li:nth-child(3) img {
+    padding-right: 0;
+    padding-left: 5px; }
 
 /* BREAKPOINTS START HERE ------------------------------------ */
 @media (min-width: 576px) {
