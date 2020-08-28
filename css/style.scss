@@ -813,4 +813,16 @@ height: 790px;
     margin-right: 5px!important;
   }
 }
+
+/* Perks */
+
+.perks-height{
+  height: 800px!important;
+}
+} /* Closes 1200px media query */
+
+@media (min-width: 1300px){
+  .perks-height{
+    height: 850px!important;
+  }
 }

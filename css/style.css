@@ -561,6 +561,14 @@ footer {
     margin-bottom: 20px; }
     .aside-image-container img {
       height: 75px !important;
-      margin-right: 5px !important; } }
+      margin-right: 5px !important; }
+
+  /* Perks */
+  .perks-height {
+    height: 800px !important; } }
+/* Closes 1200px media query */
+@media (min-width: 1300px) {
+  .perks-height {
+    height: 850px !important; } }
 
 /*# sourceMappingURL=style.css.map */
