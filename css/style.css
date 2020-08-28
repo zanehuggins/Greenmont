@@ -299,6 +299,13 @@ footer {
 .history p {
   margin-top: 30px;
   margin-bottom: 30px; }
+.history a {
+  color: #9D4823;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: .25s; }
+.history a:hover {
+  opacity: .75; }
 
 /* About */
 .about-photo-ul {
@@ -382,8 +389,6 @@ footer {
       margin-top: 30px; }
     .history p {
       margin-top: 0; }
-    .history a {
-      color: #9D4823; }
 
   .home h2 {
     padding-left: 40px !important;
