@@ -237,6 +237,33 @@ footer {
   footer a {
     color: white; }
 
+/* Carousel-Home */
+.carousel-item {
+  height: 250px;
+  content-overflow: hidden;
+  position: relative; }
+  .carousel-item img {
+    position: absolute;
+    top: -125px; }
+
+.carousel-text-container {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, 0.9); }
+  .carousel-text-container h3 {
+    margin-top: 15px; }
+  .carousel-text-container p {
+    font-size: 13px; }
+  .carousel-text-container a {
+    background-color: #9D4823;
+    padding: 10px;
+    color: white;
+    text-align: center; }
+
+.link-container {
+  padding-bottom: 10px;
+  padding-top: 30px; }
+
 /* PERKS & POINTS OF INTEREST */
 .subnav li {
   margin-right: 15px;
@@ -310,16 +337,9 @@ footer {
 
 /* About */
 .about-photo-ul {
-  margin-top: 30px; }
-  .about-photo-ul li:nth-child(1) img {
-    padding: 0;
-    margin-bottom: 10px; }
-  .about-photo-ul li:nth-child(2) img {
-    padding-left: 0;
-    padding-right: 5px; }
-  .about-photo-ul li:nth-child(3) img {
-    padding-right: 0;
-    padding-left: 5px; }
+  padding: 10px !important; }
+  .about-photo-ul img {
+    padding: 5px; }
 
 .contact {
   padding-bottom: 30px !important; }
@@ -336,10 +356,48 @@ footer {
   margin-top: 10px !important;
   padding: 0; }
 
+/* Projects */
+.map-projects {
+  margin-top: 10px;
+  height: 25vh !important; }
+
+#projects-aside {
+  padding-left: 0 !important; }
+
+/* Carousel-Projects */
+#carousel-projects .carousel-item {
+  height: 250px;
+  content-overflow: hidden;
+  position: relative; }
+  #carousel-projects .carousel-item img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: auto !important; }
+#carousel-projects .carousel-text-container {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, 0.9); }
+  #carousel-projects .carousel-text-container h3 {
+    margin-top: 15px; }
+  #carousel-projects .carousel-text-container p {
+    font-size: 13px; }
+  #carousel-projects .carousel-text-container a {
+    background-color: #9D4823;
+    padding: 10px;
+    color: white;
+    text-align: center; }
+#carousel-projects .link-container {
+  padding-bottom: 10px;
+  padding-top: 30px; }
+
 /* BREAKPOINTS START HERE ------------------------------------ */
 @media (min-width: 576px) {
   .photo-container-home img {
-    bottom: -150px; } }
+    bottom: -150px; }
+
+  .about-photo-ul {
+    padding: 10px !important; } }
 /* closes 576px breakpoint */
 @media (min-width: 768px) {
   header button img {
@@ -358,32 +416,6 @@ footer {
 
   .list .about-tiny {
     font-size: 12px !important; }
-
-  .carousel-item {
-    height: 250px;
-    content-overflow: hidden;
-    position: relative; }
-    .carousel-item img {
-      position: absolute;
-      top: -125px; }
-
-  .carousel-text-container {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(225, 225, 225, 0.9); }
-    .carousel-text-container h3 {
-      margin-top: 15px; }
-    .carousel-text-container p {
-      font-size: 13px; }
-    .carousel-text-container a {
-      background-color: #9D4823;
-      padding: 10px;
-      color: white;
-      text-align: center; }
-
-  .link-container {
-    padding-bottom: 10px;
-    padding-top: 30px; }
 
   /*home*/
   .home p img {
@@ -404,8 +436,6 @@ footer {
   /*history*/
   .history {
     padding-bottom: 30px !important; }
-    .history img {
-      margin-top: 30px; }
     .history p {
       margin-top: 0; }
 
@@ -496,6 +526,11 @@ footer {
   .rental-template-gallery-container {
     border-bottom: none; }
 
+  /* History */
+  .history img {
+    padding: 5px !important;
+    margin: 0; }
+
   /* Contact */
   .map-contact {
     height: 600px; }
@@ -540,7 +575,8 @@ footer {
       top: -125px; }
 
   .about-photo-ul {
-    margin-top: 70px !important; }
+    margin-top: 0 !important;
+    padding: 0 !important; }
 
   .about-height {
     height: 540px; }
@@ -565,10 +601,55 @@ footer {
 
   /* Perks */
   .perks-height {
-    height: 800px !important; } }
+    height: 800px !important; }
+
+  /* Projects */
+  .projects {
+    height: 900px; }
+
+  .map-projects {
+    height: 315px !important; }
+
+  #projects-aside {
+    padding-left: 10px !important; }
+
+  /* Carousel-Projects */
+  #carousel-projects .carousel-item {
+    height: 500px;
+    content-overflow: hidden;
+    position: relative; }
+    #carousel-projects .carousel-item img {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: auto !important; }
+  #carousel-projects .carousel-text-container {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(225, 225, 225, 0.9); }
+    #carousel-projects .carousel-text-container h3 {
+      margin-top: 15px; }
+    #carousel-projects .carousel-text-container p {
+      font-size: 13px; }
+    #carousel-projects .carousel-text-container a {
+      background-color: #9D4823;
+      padding: 10px;
+      color: white;
+      text-align: center; }
+  #carousel-projects .link-container {
+    padding-bottom: 10px;
+    padding-top: 30px; } }
 /* Closes 1200px media query */
 @media (min-width: 1300px) {
   .perks-height {
-    height: 850px !important; } }
+    height: 850px !important; }
+
+  /* Projects */
+  .projects {
+    height: 950px; }
+
+  .map-projects {
+    margin-top: 10px;
+    height: 365px !important; } }
 
 /*# sourceMappingURL=style.css.map */

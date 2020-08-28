@@ -316,6 +316,42 @@ ul{
   }
 }
 
+/* Carousel-Home */
+
+.carousel-item{
+  height: 250px;
+  content-overflow: hidden;
+  position: relative;
+
+  img{
+    position: absolute;
+    top: -125px;
+  }
+}
+
+.carousel-text-container{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, .9);
+  h3{
+    margin-top: 15px;
+  }
+  p{
+    font-size: 13px;
+  }
+  a{
+    background-color: $orange;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+}
+
+.link-container{
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
 
 /* PERKS & POINTS OF INTEREST */
 .subnav{
@@ -429,22 +465,14 @@ p{
   }
 }
 
+
+
 /* About */
 .about-photo-ul{
-  margin-top: 30px;
-li:nth-child(1) img{
-    padding: 0;
-    margin-bottom: 10px;
+  padding: 10px!important;
+  img{
+    padding: 5px;
   }
-  li:nth-child(2) img{
-      padding-left: 0;
-      padding-right: 5px;
-    }
-    li:nth-child(3) img{
-
-        padding-right: 0;
-        padding-left: 5px;
-      }
 }
 
 .contact{
@@ -466,6 +494,60 @@ li:nth-child(1) img{
   padding: 0;
 }
 
+/* Projects */
+.map-projects{
+  margin-top: 10px;
+  height: 25vh!important;
+}
+
+#projects-aside{
+  padding-left: 0!important;
+}
+
+/* Carousel-Projects */
+
+
+#carousel-projects{
+.carousel-item{
+  height: 250px;
+  content-overflow: hidden;
+  position: relative;
+
+  img{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: auto!important;
+  }
+}
+
+.carousel-text-container{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, .9);
+  h3{
+    margin-top: 15px;
+  }
+  p{
+    font-size: 13px;
+  }
+  a{
+    background-color: $orange;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+}
+
+.link-container{
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+}
+
+
+
+
 /* BREAKPOINTS START HERE ------------------------------------ */
 
 @media (min-width: 576px){
@@ -474,6 +556,9 @@ li:nth-child(1) img{
   img{
     bottom: -150px;
   }
+}
+.about-photo-ul{
+  padding: 10px!important;
 }
 
 
@@ -511,39 +596,6 @@ main{
 }
 }
 
-.carousel-item{
-  height: 250px;
-  content-overflow: hidden;
-  position: relative;
-
-  img{
-    position: absolute;
-    top: -125px;
-  }
-}
-
-.carousel-text-container{
-  position: absolute;
-  bottom: 0;
-  background-color: rgba(225, 225, 225, .9);
-  h3{
-    margin-top: 15px;
-  }
-  p{
-    font-size: 13px;
-  }
-  a{
-    background-color: $orange;
-    padding: 10px;
-    color: white;
-    text-align: center;
-  }
-}
-
-.link-container{
-  padding-bottom: 10px;
-  padding-top: 30px;
-}
 
 
 /*home*/
@@ -576,9 +628,7 @@ height: 30vh;
   h2{
 
   }
-  img{
-    margin-top: 30px;
-  }
+
   p{
 
     margin-top: 0;
@@ -718,6 +768,14 @@ top: 0;
       border-bottom: none;
 }
 
+/* History */
+.history{
+  img{
+    padding: 5px!important;
+    margin: 0;
+  }
+}
+
 /* Contact */
 .map-contact{
   height: 600px;
@@ -734,6 +792,7 @@ top: 0;
   padding-right: 40px!important;
   height: 600px;
 }
+
 
 }
 
@@ -782,7 +841,8 @@ top: 0;
 }
 
 .about-photo-ul{
-  margin-top: 70px!important;
+  margin-top: 0!important;
+  padding: 0!important;
 }
 
   .about-height{
@@ -819,10 +879,74 @@ height: 790px;
 .perks-height{
   height: 800px!important;
 }
+
+/* Projects */
+.projects{
+  height: 900px;
+}
+
+.map-projects{
+  height: 315px!important;
+}
+
+#projects-aside{
+  padding-left: 10px!important;
+}
+
+/* Carousel-Projects */
+
+#carousel-projects{
+.carousel-item{
+  height: 500px;
+  content-overflow: hidden;
+  position: relative;
+
+  img{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: auto!important;
+  }
+}
+
+.carousel-text-container{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, .9);
+  h3{
+    margin-top: 15px;
+  }
+  p{
+    font-size: 13px;
+  }
+  a{
+    background-color: $orange;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+}
+
+.link-container{
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+}
+
 } /* Closes 1200px media query */
 
 @media (min-width: 1300px){
   .perks-height{
     height: 850px!important;
+  }
+
+  /* Projects */
+  .projects{
+    height: 950px;
+  }
+
+  .map-projects{
+    margin-top: 10px;
+    height: 365px!important;
   }
 }
