@@ -382,6 +382,8 @@ footer {
       margin-top: 30px; }
     .history p {
       margin-top: 0; }
+    .history a {
+      color: #9D4823; }
 
   .home h2 {
     padding-left: 40px !important;
@@ -479,6 +481,14 @@ footer {
   .current-projects {
     height: 405px;
     background-color: white; }
+
+  .carousel-item {
+    height: 330px;
+    content-overflow: hidden;
+    position: relative; }
+    .carousel-item img {
+      position: absolute;
+      top: -125px; }
 
   .about-height {
     height: 540px; }

@@ -549,6 +549,9 @@ height: 30vh;
 
     margin-top: 0;
   }
+  a{
+    color: $orange;
+  }
 
 }
 
@@ -705,6 +708,17 @@ top: 0;
 .current-projects{
   height: 405px;
   background-color: white;
+}
+
+.carousel-item{
+  height: 330px;
+  content-overflow: hidden;
+  position: relative;
+
+  img{
+    position: absolute;
+    top: -125px;
+  }
 }
 
   .about-height{
